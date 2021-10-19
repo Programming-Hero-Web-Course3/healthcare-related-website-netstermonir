@@ -2,7 +2,7 @@
 
 ## Live Link 
 
-Visit our site  [Medent](https://bildo-7f598.web.app/)
+Visit our site  [Medent](https://medent-dental-clinic.web.app/)
 
 
 ### About Project 
