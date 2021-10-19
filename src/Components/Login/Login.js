@@ -128,10 +128,10 @@ const Login = () => {
                         </Button>
                     </Form>
                     <NavLink className="text-decoration-none" to="/register">
-                        <p className="text-center mt-3 text-info">New Member? Please Create An Account!</p>
+                        <p className="text-center mt-3 text-dark fw-bolder">New Member? Please Create An Account!</p>
                     </NavLink>
                     <div className="mt-3 text-center fs-4 fw-bolder text-muted">---Or---</div>
-                    <div className="mt-3 text-center fs-4 fw-bolder" >
+                    <div className="mt-3 mb-3 text-center fs-4 fw-bolder" >
                         <Button onClick={handleGoogleLogin} variant="info"> {google}</Button>
                     </div>
                 </div>

@@ -136,7 +136,7 @@ const Register = () => {
                             </Button>
                         </Form>
                         <NavLink className="text-decoration-none" to="/login">
-                            <p className="text-center mt-3 text-info"> Alreay Account? Please Login!</p>
+                            <p className="text-center mt-3 text-dark fw-bolder"> Alreay Account? Please Login!</p>
                         </NavLink>
                         <div className="mt-3 text-center fs-4 fw-bolder text-muted">---Or---</div>
                         <div className="mt-3 text-center fs-4 fw-bolder" >
