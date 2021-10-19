@@ -17,7 +17,7 @@ const Feature = () => {
                             <Card.Body>
                                 <Card.Title>Certification</Card.Title>
                                 <Card.Text>
-                                    Corned beef pancetta ut, aliquip tri-tip turducken pork chop. Cow beef eu bacon jowl pastrami.
+                                    We provide an exceptional blend of quality nursing and wellness services.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -26,7 +26,7 @@ const Feature = () => {
                             <Card.Body>
                                 <Card.Title>24/7 Opened</Card.Title>
                                 <Card.Text>
-                                    Dolor corned beef ipsum, nulla filet mignon flank in ut minim. Boudin landjaeger pork belly.
+                                    It is a range of healthcare services that can be given in your home.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -35,7 +35,7 @@ const Feature = () => {
                             <Card.Body>
                                 <Card.Title>Professional Staff</Card.Title>
                                 <Card.Text>
-                                    Pork belly chicken nulla swine. Occaecat culpa dolor beef ribs adipisicing et tri-tip eu esse.
+                                    Medical examinations, on condition of its periodic passing, allows a person.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
@@ -44,7 +44,7 @@ const Feature = () => {
                             <Card.Body>
                                 <Card.Title>Fair Prices</Card.Title>
                                 <Card.Text>
-                                    Lorem chicken culpa, sed filet mignon chuck shank ground und in id laboris laborum short.
+                                    It is a range of healthcare services that can be given in your home.
                                 </Card.Text>
                             </Card.Body>
                         </Card>
