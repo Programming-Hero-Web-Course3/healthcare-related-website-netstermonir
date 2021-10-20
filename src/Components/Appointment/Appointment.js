@@ -3,6 +3,8 @@ import { Col, Form, Row, Button } from 'react-bootstrap';
 import { useHistory, useLocation } from 'react-router';
 import Swal from 'sweetalert2';
 import useAuth from '../../Hooks/useAuth';
+import bgappointment from '../../image/banner/allwebsite.png';
+import Newslater from '../Home/Newslater/Newslater';
 
 const Appointment = () => {
     const history = useHistory();
@@ -22,11 +24,11 @@ const Appointment = () => {
     const { user } = useAuth();
     return (
         <div>
-            <section>
-                <div className="container shadow-lg px-2 py-3 p-md-5 mt-5 mb-5">
+            <section style={{ background: `url(${bgappointment})` }}>
+                <div className="container shadow-lg px-2 py-3 p-md-5 mb-5">
                     <div className="row">
-                        <div className="col-m-8">
-                            <h2 className="mb-4 text-center">
+                        <div className="col-m-8 text-white">
+                            <h2 className="mb-4 text-center text-white">
                                 After Choosing A Doctor, Fill This Form !
                             </h2>
                             <Form>
@@ -87,6 +89,7 @@ const Appointment = () => {
                     </div>
                 </div>
             </section>
+            <Newslater></Newslater>
         </div>
     );
 };

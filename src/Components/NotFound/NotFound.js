@@ -3,11 +3,12 @@ import { Link } from 'react-router-dom';
 import { Button } from 'react-bootstrap';
 import './NotFound.css';
 import notFound from '../../image/404/404.png';
+import bgnotfound from '../../image/banner/allwebsite.png';
 
 const NotFound = () => {
     return (
         <>
-            <section className="notfound">
+            <section className="notfound" style={{ background: `url(${bgnotfound})` }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6 mx-auto">

@@ -5,7 +5,7 @@ import './Newslater.css';
 const Newslater = () => {
     return (
         <div>
-            <section id="newsletter" className="py-5 my-5">
+            <section id="newsletter" className="my-3">
                 <Container>
                     <Row className="mt-5">
                         <div className="col-12">

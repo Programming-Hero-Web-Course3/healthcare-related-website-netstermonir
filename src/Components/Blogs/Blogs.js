@@ -3,14 +3,15 @@ import { Row } from 'react-bootstrap';
 import UseBlog from '../../Hooks/UseBlog';
 import Blog from '../Blog/Blog';
 import Newslater from '../Home/Newslater/Newslater';
+import bgblog from '../../image/banner/allwebsite.png';
 
 const Blogs = () => {
     const [blogs] = UseBlog();
     return (
         <>
-            <section className="mb-5 mt-5">
+            <section className="mb-5" style={{ background: `url(${bgblog})` }}>
                 <div className="container shadow-lg px-2 py-3 p-md-5">
-                    <h2 className="text-center fw-bolder">Blogs</h2>
+                    <h2 className="text-center fw-bolder text-white">Blogs</h2>
                     <hr className="high mx-auto"></hr>
                     <Row xs={1} md={3} className="g-4 mt-3">
                         {

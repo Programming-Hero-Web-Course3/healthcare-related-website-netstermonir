@@ -2,12 +2,6 @@
 .medent-img {
     border-radius: 10px;
     height: 430px;
-    transition: transform 1.5s, filter 1.5s ease-in-out;
-    filter: grayscale(0);
-}
-.medent-img:hover {
-  filter: grayscale(100%);
-  transform: scale(1.1);
 }
 .we-medent-text {
     padding-left: 20px;
@@ -21,7 +15,7 @@
     background-color: #4fc9e0;
 }
 .home-counter {
-    background-image: linear-gradient(0deg, rgba(80, 137, 148, .7), rgba(94, 167, 182, 0.7)), url('../../image/appointment/appoinment.jpg');
+    background-image: linear-gradient(0deg, rgba(64 61 61 / 78%), rgba(72 88 90 / 70%)), url('../../image/appointment/appoinment.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

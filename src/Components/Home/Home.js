@@ -10,6 +10,7 @@ import { faUser, faHeartBroken, faClock, faUserMd } from '@fortawesome/free-soli
 import Service from './Service/Service';
 import UseServices from '../../Hooks/UseServices';
 import Newslater from './Newslater/Newslater';
+import bgservice from '../../image/banner/allwebsite.png';
 
 const Home = () => {
     const [services] = UseServices();
@@ -104,9 +105,9 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-            <section className="mb-5 mt-5">
+            <section className="mb-5 mt-5" style={{ background: `url(${bgservice})` }}>
                 <div className="container shadow-lg px-2 py-3 p-md-5">
-                    <h2 className="text-center fw-bolder">Services</h2>
+                    <h2 className="text-center text-white fw-bolder">Services</h2>
                     <hr className="high mx-auto"></hr>
                     <Row xs={1} md={3} className="g-4 mt-3">
                         {
@@ -117,7 +118,7 @@ const Home = () => {
                         }
                     </Row>
                 </div>
-                <div className="text-center mt-3">
+                <div className="text-center mt-3 pb-3">
                     <Link to="/services">
                         <Button variant="info" className="fs-6 fw-bolder text-white">See All Service</Button>
                     </Link>

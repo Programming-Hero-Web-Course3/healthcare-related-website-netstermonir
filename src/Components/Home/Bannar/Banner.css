@@ -1,9 +1,9 @@
 .banner-bg {
-    background-image: linear-gradient(0deg, rgba(79, 201, 224, .4), rgba(79, 201, 224, .4)),url('../../../image/banner/banner-2.jpg');
-    background-position: center;
-    background-size: cover;
+    background-image: linear-gradient(0deg, rgba(0 0 0 / 59%), rgba(10 10 10 / 40%)),url('../../../image/banner/banner-3.jpg');
+    background-position: 50% 50%;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    height: 80vh;
+    height: 90vh;
 }
 .banner-text {
     position: relative;

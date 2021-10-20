@@ -7,6 +7,7 @@ import { faEnvelope, faLock, faArrowRight } from '@fortawesome/free-solid-svg-ic
 import useAuth from '../../Hooks/useAuth';
 import { NavLink, useHistory, useLocation } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import bglogin from '../../image/banner/allwebsite.png';
 
 const Login = () => {
     const history = useHistory();
@@ -77,11 +78,11 @@ const Login = () => {
     const arrow = <FontAwesomeIcon icon={faArrowRight} />
     const google = <FontAwesomeIcon icon={faGoogle} />
     return (
-        <section className="login-height">
-            <div className="container" style={{ marginTop: "5rem" }}>
+        <section className="login-height" style={{ background: `url(${bglogin})` }}>
+            <div className="container" >
                 <div className="row mx-auto">
-                    <div className="col-md-6 mx-auto">
-                        <h2 className="text-center mb-5 text-secondary">Login Now</h2>
+                    <div className="col-md-6 mx-auto p-3">
+                        <h2 className="text-center mb-5 text-white">Login Now</h2>
                         <p className="text-danger text-center">{error}</p>
                         <Form onSubmit={login}>
                             <Form.Group className="mb-3" id="formBasicemail">
@@ -120,18 +121,19 @@ const Login = () => {
                                 <Form.Group className="mb-3" id="formBasicCheckbox">
                                     <Form.Check type="checkbox" label="Remember Me" />
                                 </Form.Group>
-                                <Form.Group className="mb-3" id="formBasicCheckbox">
+                                <Form.Group className="mb-3" id="formBasicforgotpass">
                                     <Button onClick={handlePasswordreset} variant="outline-primary">Forgot Password</Button>
                                 </Form.Group>
                             </div>
-                            <Button variant="info" className="w-100 fw-bold" type="submit">
+                            <Button variant="info" className="w-100 fw-bold text-dark" type="submit">
                                 {arrow} Login
                             </Button>
                         </Form>
                         <NavLink className="text-decoration-none" to="/register">
-                            <p className="text-center mt-3 text-dark fw-bolder">New Member? Please Create An Account!</p>
+                            <p className="text-center mt-3 text-white fw-bolder">New Member? Please Create An Account!</p>
                         </NavLink>
-                        <div className="mt-3 text-center fs-4 fw-bolder text-muted">---Or---</div>
+                        <div className="mt-3 text-center fs-4 fw-bolder text-white">---Or---</div>
+                        <p className="text-center text-white">Login With Google</p>
                         <div className="mt-3 mb-3 text-center fs-4 fw-bolder" >
                             <Button onClick={handleGoogleLogin} variant="info"> {google}</Button>
                         </div>
