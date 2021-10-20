@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import './Blog.css';
 
 const Blog = (props) => {
     const { slug, title, short_description, image } = props.blog;
@@ -8,7 +9,9 @@ const Blog = (props) => {
         <div>
             <Col>
                 <Card className="service-card">
-                    <Card.Img variant="top" src={image} />
+                    <div className="overflow-hidden">
+                        <Card.Img variant="top" src={image} id="cardimg" />
+                    </div>
                     <Card.Body className="service-body">
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>

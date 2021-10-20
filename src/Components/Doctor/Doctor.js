@@ -14,7 +14,9 @@ const Doctor = (props) => {
         <div>
             <Col>
                 <Card className="service-card">
-                    <Card.Img className="dc-img mx-auto p-3" variant="top" src={image} />
+                    <div className="overflow-hidden mx-auto">
+                        <Card.Img className="dc-img mx-auto p-3" variant="top" src={image} id="cardimg" />
+                    </div>
                     <Card.Body className="text-center">
                         <Card.Title>{name}</Card.Title>
                         <Card.Text>

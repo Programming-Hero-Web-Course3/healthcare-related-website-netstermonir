@@ -13,3 +13,11 @@
 .social-icon a span:hover{
   color: blue;
 }
+#cardimg {
+    transform: scale(1);
+    transition: all 1s;
+}
+#cardimg:hover {
+    transform: scale(1.1);
+    transition: all 1s;
+}

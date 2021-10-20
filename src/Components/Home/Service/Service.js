@@ -9,7 +9,9 @@ const Service = (props) => {
         <div>
             <Col>
                 <Card className="service-card">
-                    <Card.Img variant="top" src={image} />
+                    <div className="overflow-hidden">
+                        <Card.Img variant="top" src={image} id="cardimg" />
+                    </div>
                     <Card.Body className="service-body">
                         <Card.Title>{title}</Card.Title>
                         <Card.Text>

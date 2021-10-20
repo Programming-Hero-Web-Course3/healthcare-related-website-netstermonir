@@ -10,7 +10,7 @@ const Doctors = () => {
     return (
         <>
             <section className="mb-5" style={{ background: `url(${bgdoctor})` }}>
-                <div className="container shadow-lg px-2 py-3 p-md-5">
+                <div className="container shadow-lg px-2 py-3">
                     <h2 className="text-center fw-bolder text-white">Our Popular Doctor</h2>
                     <hr className="high mx-auto"></hr>
                     <Row xs={1} md={3} className="g-4 mt-3">
